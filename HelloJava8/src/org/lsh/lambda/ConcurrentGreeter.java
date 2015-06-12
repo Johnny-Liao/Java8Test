@@ -5,7 +5,7 @@ package org.lsh.lambda;
 
 class Greeter {
 	public void greeter() {
-		System.out.println("Hello, world!" + this);
+		System.out.println("Hello, world! " + this);
 	}
 }
 

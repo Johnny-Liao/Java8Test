@@ -13,7 +13,7 @@ public class VariableScope {
 		Runnable r = () -> {
 			for (int i = 0; i < count; i++) {
 				System.out.println(text);
-				Thread.yield();
+//				Thread.yield();
 			}
 		};
 		new Thread(r).start();
